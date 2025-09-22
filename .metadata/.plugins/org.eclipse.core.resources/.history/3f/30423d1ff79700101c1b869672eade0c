@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="2">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poIdentifier name="P" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="c" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="axm2/THM" org.eventb.core.accurate="false" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="2">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Celebrity/Celebrity_c0.bpo|org.eventb.core.poFile#Celebrity_c0|org.eventb.core.poPredicateSet#HYP'"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="c∈P" org.eventb.core.source="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Celebrity/Celebrity_c0.bpo|org.eventb.core.poFile#Celebrity_c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Celebrity/Celebrity_c0.bpo|org.eventb.core.poFile#Celebrity_c0|org.eventb.core.poPredicateSet#HYP'"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="HYP'" org.eventb.core.parentSet="/Celebrity/Celebrity_c0.bpo|org.eventb.core.poFile#Celebrity_c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P⊆ℕ" org.eventb.core.source="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#*"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Celebrity/Celebrity_c0.bpo|org.eventb.core.poFile#Celebrity_c0|org.eventb.core.poPredicateSet#HYP'" org.eventb.core.poStamp="2">
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="c∈P" org.eventb.core.source="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#+"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

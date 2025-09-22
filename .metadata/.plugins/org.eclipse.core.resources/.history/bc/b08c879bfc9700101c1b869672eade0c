@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poIdentifier name="P" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="c" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="k" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.poPredicate name="l" org.eventb.core.predicate="P⊆ℕ" org.eventb.core.source="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#*"/>
+        <org.eventb.core.poPredicate name="m" org.eventb.core.predicate="c∈P" org.eventb.core.source="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poPredicate name="n" org.eventb.core.predicate="k∈P ∖ {c} ↔ P" org.eventb.core.source="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#,"/>
+        <org.eventb.core.poPredicate name="o" org.eventb.core.predicate="k∼[{c}]=P ∖ {c}" org.eventb.core.source="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#-"/>
+        <org.eventb.core.poPredicate name="p" org.eventb.core.predicate="k∩(id ⦂ ℙ(ℤ×ℤ))=(∅ ⦂ ℙ(ℤ×ℤ))" org.eventb.core.source="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#."/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Celebrity/Celebrity_1.bpo|org.eventb.core.poFile#Celebrity_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="1"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPCelebrity_c1" org.eventb.core.parentSet="/Celebrity/Celebrity_1.bpo|org.eventb.core.poFile#Celebrity_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0"/>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Celebrity/Celebrity_1.bpo|org.eventb.core.poFile#Celebrity_1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1"/>
+</org.eventb.core.poFile>
