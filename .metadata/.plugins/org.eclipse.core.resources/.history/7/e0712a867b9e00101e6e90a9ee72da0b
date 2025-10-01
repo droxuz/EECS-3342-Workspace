@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="25">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poIdentifier name="COURSE" org.eventb.core.type="ℙ(COURSE)"/>
+        <org.eventb.core.poIdentifier name="STUDENT" org.eventb.core.type="ℙ(STUDENT)"/>
+        <org.eventb.core.poIdentifier name="limit" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="cap" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poPredicate name="STUDENU" org.eventb.core.predicate="cap∈ℕ1" org.eventb.core.source="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poPredicate name="STUDENV" org.eventb.core.predicate="limit∈ℕ1" org.eventb.core.source="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.axiom#,"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="2">
+        <org.eventb.core.poIdentifier name="c" org.eventb.core.type="ℙ(STUDENT×ℙ(COURSE))"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="inv2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Invariant" org.eventb.core.poStamp="5">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_2"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s⦂STUDENT·s∈dom(c)⇒c∈STUDENT ⇸ ℙ(COURSE)∧finite(c(s))" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_2"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="inv3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Invariant" org.eventb.core.poStamp="6">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_3"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite(dom(c))" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_3"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_5"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(STUDENT×ℙ(COURSE)))∈STUDENT ⇸ ℙ(COURSE)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_2|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_5"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s⦂STUDENT·s∈dom(∅ ⦂ ℙ(STUDENT×ℙ(COURSE)))⇒card((∅ ⦂ ℙ(STUDENT×ℙ(COURSE)))(s))≤cap" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_3|org.eventb.core.poPredicate#PRD1"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_5"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="card(dom(∅ ⦂ ℙ(STUDENT×ℙ(COURSE))))≤limit" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#INITIALISATION\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTPracContext_5" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℙ(STUDENT×ℙ(COURSE))"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPPracContext_5" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTIDENTPracContext_5" org.eventb.core.poStamp="4"/>
+    <org.eventb.core.poSequent name="admission/grd3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="14">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTHYPPracContext_6("/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite(dom(c))" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#)"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#)"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTHYPPracContext_6("/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="admission/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_6"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="c{s ↦ (∅ ⦂ ℙ(COURSE))}∈STUDENT ⇸ ℙ(COURSE)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#admission\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_2|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="admission/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_6"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s0⦂STUDENT·s0∈dom(c{s ↦ (∅ ⦂ ℙ(COURSE))})⇒card((c{s ↦ (∅ ⦂ ℙ(COURSE))})(s0))≤cap" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#admission\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_3|org.eventb.core.poPredicate#PRD1"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="admission/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_6"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="card(dom(c{s ↦ (∅ ⦂ ℙ(COURSE))}))≤limit" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#admission\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTPracContext_6" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="14">
+        <org.eventb.core.poIdentifier name="s" org.eventb.core.type="STUDENT"/>
+        <org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℙ(STUDENT×ℙ(COURSE))"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPPracContext_6(" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTIDENTPracContext_6" org.eventb.core.poStamp="14">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈STUDENT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#'"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="s∉dom(c)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#("/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPPracContext_6" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTHYPPracContext_6(" org.eventb.core.poStamp="14">
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="card(dom(c))&lt;limit" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#)"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="leave/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="16">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_7"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="{s} ⩤ c∈STUDENT ⇸ ℙ(COURSE)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#."/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#leave\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_2|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="leave/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="16">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_7"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s0⦂STUDENT·s0∈dom({s} ⩤ c)⇒card(({s} ⩤ c)(s0))≤cap" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#."/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#leave\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_3|org.eventb.core.poPredicate#PRD1"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="leave/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="16">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_7"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="card(dom({s} ⩤ c))≤limit" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#."/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#leave\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTPracContext_7" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="16">
+        <org.eventb.core.poIdentifier name="s" org.eventb.core.type="STUDENT"/>
+        <org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℙ(STUDENT×ℙ(COURSE))"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPPracContext_7" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTIDENTPracContext_7" org.eventb.core.poStamp="16">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈dom(c)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#.|org.eventb.core.guard#("/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="enroll/grd3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTHYPPracContext_8("/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="s∈dom(c)∧c∈STUDENT ⇸ ℙ(COURSE)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#+"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTHYPPracContext_8("/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enroll/grd4/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTHYPPracContext_8)"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="s∈dom(c)∧c∈STUDENT ⇸ ℙ(COURSE)∧finite(c(s))" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#,"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#,"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTHYPPracContext_8)"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enroll/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_8"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="c{s ↦ c(s)∪{co}}∈STUDENT ⇸ ℙ(COURSE)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#enroll\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_2|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enroll/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_8"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s0⦂STUDENT·s0∈dom(c{s ↦ c(s)∪{co}})⇒card((c{s ↦ c(s)∪{co}})(s0))≤cap" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#enroll\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_3|org.eventb.core.poPredicate#PRD1"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enroll/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_8"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="card(dom(c{s ↦ c(s)∪{co}}))≤limit" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poSequent#enroll\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enroll/act1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_8"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="s∈dom(c)∧c∈STUDENT ⇸ ℙ(COURSE)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.action#-"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.action#-"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTALLHYPPracContext_8"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTPracContext_8" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="24">
+        <org.eventb.core.poIdentifier name="s" org.eventb.core.type="STUDENT"/>
+        <org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℙ(STUDENT×ℙ(COURSE))"/>
+        <org.eventb.core.poIdentifier name="co" org.eventb.core.type="COURSE"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPPracContext_8(" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTIDENTPracContext_8" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈dom(c)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#)"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="co∈COURSE" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#*"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPPracContext_8)" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTHYPPracContext_8(" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="co∉c(s)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#+"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPPracContext_8" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTHYPPracContext_8)" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="card(c(s))&lt;cap" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#,"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTIDENTPracContext_9" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="s" org.eventb.core.type="STUDENT×ℙ(COURSE)"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPPracContext_9" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#EVTIDENTPracContext_9" org.eventb.core.poStamp="25">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈c" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.guard#'"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="HYPPracContext_2" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="c∈STUDENT ⇸ ℙ(COURSE)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="HYPPracContext_3" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_2" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="∀s⦂STUDENT·s∈dom(c)⇒card(c(s))≤cap" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#HYPPracContext_3" org.eventb.core.poStamp="6">
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="card(dom(c))≤limit" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+    <org.eventb.core.prProof name="INITIALISATION/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="COURSE,STUDENT">
+        <org.eventb.core.lang name="L"/>
+        <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2">
+            <org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+        </org.eventb.core.prRule>
+        <org.eventb.core.prIdent name="cap" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="(∅ ⦂ ℙ(STUDENT×ℙ(COURSE)))∈STUDENT ⇸ ℙ(COURSE)"/>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="cap∈ℕ1"/>
+        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="limit∈ℕ1"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+    </org.eventb.core.prProof>
+    <org.eventb.core.prProof name="inv2/WD" org.eventb.core.confidence="0" org.eventb.core.prFresh="s" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COURSE,STUDENT">
+        <org.eventb.core.lang name="L"/>
+        <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
+            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p2">
+                <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p2" org.eventb.core.prHyps="">
+                    <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p3">
+                        <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∀ goal (frees s)" org.eventb.core.prGoal="p3" org.eventb.core.prHyps="">
+                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p4">
+                                <org.eventb.core.prIdent name="s" org.eventb.core.type="STUDENT"/>
+                                <org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p4" org.eventb.core.prHyps="">
+                                    <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p6" org.eventb.core.prHyps="p5"/>
+                                </org.eventb.core.prRule>
+                            </org.eventb.core.prAnte>
+                        </org.eventb.core.prRule>
+                    </org.eventb.core.prAnte>
+                </org.eventb.core.prRule>
+            </org.eventb.core.prAnte>
+        </org.eventb.core.prRule>
+        <org.eventb.core.prIdent name="c" org.eventb.core.type="ℙ(STUDENT×ℙ(COURSE))"/>
+        <org.eventb.core.prPred name="p6" org.eventb.core.predicate="finite(c(s))">
+            <org.eventb.core.prIdent name="s" org.eventb.core.type="STUDENT"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="c∈STUDENT ⇸ ℙ(COURSE)"/>
+        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀s⦂STUDENT·s∈dom(c)⇒finite(c(s))"/>
+        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="s∈dom(c)⇒finite(c(s))">
+            <org.eventb.core.prIdent name="s" org.eventb.core.type="STUDENT"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="s∈dom(c)">
+            <org.eventb.core.prIdent name="s" org.eventb.core.type="STUDENT"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="∀s⦂STUDENT·s∈dom(c)⇒⊤∧finite(c(s))"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀s⦂STUDENT·s∈dom(c)⇒c∈STUDENT ⇸ ℙ(COURSE)∧finite(c(s))"/>
+        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
+        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+    </org.eventb.core.prProof>
+    <org.eventb.core.prProof name="INITIALISATION/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="COURSE,STUDENT">
+        <org.eventb.core.lang name="L"/>
+        <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p1">
+                <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⊤ goal" org.eventb.core.prGoal="p1" org.eventb.core.prHyps=""/>
+            </org.eventb.core.prAnte>
+        </org.eventb.core.prRule>
+        <org.eventb.core.prIdent name="cap" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀s⦂STUDENT·s∈dom(∅ ⦂ ℙ(STUDENT×ℙ(COURSE)))⇒card((∅ ⦂ ℙ(STUDENT×ℙ(COURSE)))(s))≤cap"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+    </org.eventb.core.prProof>
+    <org.eventb.core.prProof name="inv3/WD"/>
+    <org.eventb.core.prProof name="INITIALISATION/inv3/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="COURSE,STUDENT">
+        <org.eventb.core.lang name="L"/>
+        <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p4">
+                <org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p3"/>
+                <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p4" org.eventb.core.prHyps="p1,p2">
+                    <org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+                </org.eventb.core.prRule>
+            </org.eventb.core.prAnte>
+        </org.eventb.core.prRule>
+        <org.eventb.core.prIdent name="cap" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prIdent name="limit" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="0≤limit"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="card(dom(∅ ⦂ ℙ(STUDENT×ℙ(COURSE))))≤limit"/>
+        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="finite(dom(∅ ⦂ ℙ(STUDENT×ℙ(COURSE))))"/>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="cap∈ℕ1"/>
+        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="limit∈ℕ1"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+    </org.eventb.core.prProof>
+    <org.eventb.core.prProof name="admission/grd3/WD"/>
+</org.eventb.core.prFile>

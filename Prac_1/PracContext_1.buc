@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+    <org.eventb.core.constant name="'" org.eventb.core.comment="Cap of courses able to taken by student" org.eventb.core.identifier="cap"/>
+    <org.eventb.core.constant name="(" org.eventb.core.comment="Limit of students allowed at school" org.eventb.core.identifier="limit"/>
+    <org.eventb.core.carrierSet name=")" org.eventb.core.comment="students carrier set" org.eventb.core.identifier="STUDENT"/>
+    <org.eventb.core.carrierSet name="*" org.eventb.core.comment="courses carrier set" org.eventb.core.identifier="COURSE"/>
+    <org.eventb.core.axiom name="+" org.eventb.core.label="axm1" org.eventb.core.predicate="cap ∈ ℕ1 "/>
+    <org.eventb.core.axiom name="," org.eventb.core.label="axm2" org.eventb.core.predicate="limit ∈ ℕ1"/>
+</org.eventb.core.contextFile>

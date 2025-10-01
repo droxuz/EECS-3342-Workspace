@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poIdentifier name="COURSE" org.eventb.core.type="ℙ(COURSE)"/>
+        <org.eventb.core.poIdentifier name="STUDENT" org.eventb.core.type="ℙ(STUDENT)"/>
+        <org.eventb.core.poIdentifier name="limit" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="cap" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poPredicate name="STUDENU" org.eventb.core.predicate="cap∈ℕ1" org.eventb.core.source="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poPredicate name="STUDENV" org.eventb.core.predicate="limit∈ℕ1" org.eventb.core.source="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.axiom#,"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="1"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPPracContext_4" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0"/>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Prac_1/PracMachine_1.bpo|org.eventb.core.poFile#PracMachine_1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="⊤" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="⊤" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

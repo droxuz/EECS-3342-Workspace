@@ -25,8 +25,9 @@
         <org.eventb.core.action name="+" org.eventb.core.assignment="Q ≔ Q ∖ {y}" org.eventb.core.comment="get rid of y from Q" org.eventb.core.label="act1"/>
     </org.eventb.core.event>
     <org.eventb.core.event name="0" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="celebrity">
-        <org.eventb.core.guard name="'" org.eventb.core.comment="Q is a singleton set" org.eventb.core.label="grd1" org.eventb.core.predicate="Q = {i}" org.eventb.core.theorem="true"/>
+        <org.eventb.core.guard name="'" org.eventb.core.comment="Q is a singleton set" org.eventb.core.label="grd1" org.eventb.core.predicate="Q = {i}"/>
         <org.eventb.core.parameter name="(" org.eventb.core.comment="Singleton set" org.eventb.core.identifier="i"/>
         <org.eventb.core.action name=")" org.eventb.core.assignment="r ≔ i" org.eventb.core.label="act1"/>
+        <org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="i ∈ Q"/>
     </org.eventb.core.event>
 </org.eventb.core.machineFile>

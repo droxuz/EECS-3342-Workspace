@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/Prac_1/PracContext_1.bcc" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.seesContext#("/>
+    <org.eventb.core.scInternalContext name="PracContext_1">
+        <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="cap∈ℕ1" org.eventb.core.source="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="limit∈ℕ1" org.eventb.core.source="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.axiom#," org.eventb.core.theorem="false"/>
+        <org.eventb.core.scCarrierSet name="COURSE" org.eventb.core.source="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.carrierSet#*" org.eventb.core.type="ℙ(COURSE)"/>
+        <org.eventb.core.scCarrierSet name="STUDENT" org.eventb.core.source="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.carrierSet#)" org.eventb.core.type="ℙ(STUDENT)"/>
+        <org.eventb.core.scConstant name="limit" org.eventb.core.source="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.constant#(" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.scConstant name="cap" org.eventb.core.source="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.constant#'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.scInternalContext>
+    <org.eventb.core.scInvariant name="PracContext_2" org.eventb.core.label="inv1" org.eventb.core.predicate="c∈STUDENT ⇸ ℙ(COURSE)" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scInvariant name="PracContext_3" org.eventb.core.label="inv2" org.eventb.core.predicate="card(c)≥0" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scInvariant name="PracContext_4" org.eventb.core.label="inv3" org.eventb.core.predicate="⊤" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scVariable name="c" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.variable#," org.eventb.core.type="ℙ(STUDENT×ℙ(COURSE))"/>
+    <org.eventb.core.scEvent name="PracContext_5" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="TS&#10;&#9;⚬&#9;INITIALI" org.eventb.core.source="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#'"/>
+</org.eventb.core.scMachineFile>

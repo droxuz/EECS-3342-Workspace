@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+    <org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+        <org.eventb.core.action name="'" org.eventb.core.assignment="c ≔ ∅" org.eventb.core.comment="Initialize as empty" org.eventb.core.label="act1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.seesContext name="(" org.eventb.core.target="PracContext_1"/>
+    <org.eventb.core.invariant name=")" org.eventb.core.comment="student and course defined relation" org.eventb.core.label="inv1" org.eventb.core.predicate="c ∈ STUDENT ⇸ ℙ(COURSE)"/>
+    <org.eventb.core.invariant name="*" org.eventb.core.comment="Find number of courses student has and checks if exceeds or not" org.eventb.core.label="inv2" org.eventb.core.predicate="∀s·s ∈ dom(c) ⇒ card(c(s)) ≤ cap"/>
+    <org.eventb.core.invariant name="+" org.eventb.core.label="inv3" org.eventb.core.predicate="card(dom(c)) ≤ limit"/>
+    <org.eventb.core.variable name="," org.eventb.core.comment="STUDENT and COURSE relationship variable" org.eventb.core.identifier="c"/>
+    <org.eventb.core.event name="-" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="admission">
+        <org.eventb.core.guard name="'" org.eventb.core.comment="s is from student set" org.eventb.core.label="grd1" org.eventb.core.predicate="s ∈ STUDENT"/>
+        <org.eventb.core.guard name="(" org.eventb.core.comment="s is currently not in the school and thus has no relation with course" org.eventb.core.label="grd2" org.eventb.core.predicate="s ∉ c"/>
+        <org.eventb.core.guard name=")" org.eventb.core.label="grd3" org.eventb.core.predicate="card(dom(c)) &lt; limit"/>
+        <org.eventb.core.parameter name="*" org.eventb.core.identifier="s"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="." org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="leave"/>
+    <org.eventb.core.event name="/" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="enroll"/>
+    <org.eventb.core.event name="0" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="drop"/>
+</org.eventb.core.machineFile>
