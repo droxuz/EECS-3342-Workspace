@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="12">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="COURSE" org.eventb.core.type="ℙ(COURSE)"/>
+        <org.eventb.core.poIdentifier name="STUDENT" org.eventb.core.type="ℙ(STUDENT)"/>
+        <org.eventb.core.poIdentifier name="PROFESSOR" org.eventb.core.type="ℙ(PROFESSOR)"/>
+        <org.eventb.core.poIdentifier name="eecs4315" org.eventb.core.type="COURSE"/>
+        <org.eventb.core.poIdentifier name="maximum" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="eecs4480" org.eventb.core.type="COURSE"/>
+        <org.eventb.core.poIdentifier name="rule" org.eventb.core.type="ℙ(COURSE×COURSE)"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="axm8/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="12">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProgTest_1/COA.bpo|org.eventb.core.poFile#COA|org.eventb.core.poPredicateSet#HYP*"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s⦂COURSE·s∈dom(rule)⇒dom(rule)∩rule[{s}]=(∅ ⦂ ℙ(COURSE))" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#2"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#2"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProgTest_1/COA.bpo|org.eventb.core.poFile#COA|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/ProgTest_1/COA.bpo|org.eventb.core.poFile#COA|org.eventb.core.poPredicateSet#HYP*"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="HYP*" org.eventb.core.parentSet="/ProgTest_1/COA.bpo|org.eventb.core.poFile#COA|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="maximum∈ℕ1" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#."/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="eecs4315∈COURSE∧eecs4480∈COURSE" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#\/"/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="rule∈COURSE ↔ COURSE" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#0"/>
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="dom(rule)∩{eecs4315,eecs4480}=(∅ ⦂ ℙ(COURSE))" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#1"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/ProgTest_1/COA.bpo|org.eventb.core.poFile#COA|org.eventb.core.poPredicateSet#HYP*" org.eventb.core.poStamp="12">
+        <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="∀s⦂COURSE·s∈dom(rule)⇒dom(rule)∩rule[{s}]=(∅ ⦂ ℙ(COURSE))" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#2"/>
+        <org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="rule∼[{eecs4315}]=COURSE ∖ {eecs4315,eecs4480}∧rule∼[{eecs4480}]=COURSE ∖ {eecs4315,eecs4480}" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3"/>
+        <org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="finite(STUDENT)" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#4"/>
+        <org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="finite(PROFESSOR)" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#5"/>
+        <org.eventb.core.poPredicate name="PRD8" org.eventb.core.predicate="finite(COURSE)" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#6"/>
+        <org.eventb.core.poPredicate name="PRD9" org.eventb.core.predicate="∀c1⦂COURSE,c2⦂COURSE·c1∈COURSE∧c2∈COURSE∧c1 ↦ c2∈rule⇒c1≠c2" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#7"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

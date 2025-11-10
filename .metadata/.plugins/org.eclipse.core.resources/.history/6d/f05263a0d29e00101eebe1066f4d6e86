@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="maximum∈ℕ1" org.eventb.core.source="/ProgTest_1/ProgTestContext.buc|org.eventb.core.contextFile#ProgTestContext|org.eventb.core.axiom#." org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm5" org.eventb.core.predicate="eecs4315∈COURSE∧eecs4480∈COURSE" org.eventb.core.source="/ProgTest_1/ProgTestContext.buc|org.eventb.core.contextFile#ProgTestContext|org.eventb.core.axiom#\/" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scCarrierSet name="COURSE" org.eventb.core.source="/ProgTest_1/ProgTestContext.buc|org.eventb.core.contextFile#ProgTestContext|org.eventb.core.carrierSet#(" org.eventb.core.type="ℙ(COURSE)"/>
+    <org.eventb.core.scConstant name="eecs4315" org.eventb.core.source="/ProgTest_1/ProgTestContext.buc|org.eventb.core.contextFile#ProgTestContext|org.eventb.core.constant#+" org.eventb.core.type="COURSE"/>
+    <org.eventb.core.scConstant name="maximum" org.eventb.core.source="/ProgTest_1/ProgTestContext.buc|org.eventb.core.contextFile#ProgTestContext|org.eventb.core.constant#*" org.eventb.core.type="ℤ"/>
+    <org.eventb.core.scConstant name="eecs4480" org.eventb.core.source="/ProgTest_1/ProgTestContext.buc|org.eventb.core.contextFile#ProgTestContext|org.eventb.core.constant#," org.eventb.core.type="COURSE"/>
+    <org.eventb.core.scCarrierSet name="STUDENT" org.eventb.core.source="/ProgTest_1/ProgTestContext.buc|org.eventb.core.contextFile#ProgTestContext|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(STUDENT)"/>
+    <org.eventb.core.scCarrierSet name="PROFESSOR" org.eventb.core.source="/ProgTest_1/ProgTestContext.buc|org.eventb.core.contextFile#ProgTestContext|org.eventb.core.carrierSet#)" org.eventb.core.type="ℙ(PROFESSOR)"/>
+</org.eventb.core.scContextFile>

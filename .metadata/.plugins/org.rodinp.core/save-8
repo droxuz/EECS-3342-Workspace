@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+    <pim project="/Bank">
+        <rodin_index>
+            <descriptor element="/Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0">
+                <occurrence element="/Bank/C0.buc|org.eventb.core.contextFile#C0" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#)" name="ACCOUNT">
+                <occurrence element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#'" name="c">
+                <occurrence element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/Bank/C0.buc">
+                <exported element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#)" name="ACCOUNT"/>
+                <exported element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#'" name="c"/>
+                <exported element="/Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/Bank/C0.buc" mark="false" order_pos="0"/>
+        </graph>
+        <unprocessed file="/Bank/C0.bcc"/>
+        <unprocessed file="/Bank/C0.bpo"/>
+        <unprocessed file="/Bank/C0.bps"/>
+        <unprocessed file="/Bank/Bank0.bcm"/>
+    </pim>
+    <pim project="/Celebrity">
+        <rodin_index>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#)" name="r">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1" name="Celebrity_1">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/" name="remove_2">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#'" name="k">
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.variable#)" name="r">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#+|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#)" name="y">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="20"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="3"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#(" name="y">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="20"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#)" name="P">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#*" name="Q">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="12"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="12"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#+" name="celebrity">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0" name="Celebrity_c0">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0" name="celebrity">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0" name="Celebrity_0">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#." name="remove_1">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#(" name="c">
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#+|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.parameter#(" name="i">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#(" name="x">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="1"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="x">
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+                <occurrence element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="1"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/Celebrity/Celebrity_1.bum">
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#*" name="Q"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/" name="remove_2"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#'" name="k"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#)" name="y"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#(" name="y"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0" name="celebrity"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0" name="Celebrity_c0"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#)" name="P"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.parameter#(" name="i"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#(" name="c"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#)" name="r"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#." name="remove_1"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1" name="Celebrity_1"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#(" name="x"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="x"/>
+                <exported element="/Celebrity/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'" name="INITIALISATION"/>
+            </export>
+            <export file="/Celebrity/Celebrity_c0.buc">
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#'" name="k"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0" name="Celebrity_c0"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#)" name="P"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#(" name="c"/>
+            </export>
+            <export file="/Celebrity/Celebrity_0.bum">
+                <exported element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#+" name="celebrity"/>
+                <exported element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0" name="Celebrity_0"/>
+                <exported element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.variable#)" name="r"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#'" name="k"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0" name="Celebrity_c0"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#)" name="P"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#(" name="c"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/Celebrity/Celebrity_c0.buc" mark="false" order_pos="0"/>
+            <node label="/Celebrity/Celebrity_0.bum" mark="false" order_pos="1">
+                <predecessor label="/Celebrity/Celebrity_c0.buc"/>
+            </node>
+            <node label="/Celebrity/Celebrity_1.bum" mark="false" order_pos="2">
+                <predecessor label="/Celebrity/Celebrity_c0.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/Celebrity/Celebrity_c0.bcc"/>
+        <unprocessed file="/Celebrity/Celebrity_c0.bpo"/>
+        <unprocessed file="/Celebrity/Celebrity_c0.bpr"/>
+        <unprocessed file="/Celebrity/Celebrity_c0.bps"/>
+        <unprocessed file="/Celebrity/Celebrity_0.bcm"/>
+        <unprocessed file="/Celebrity/Celebrity_0.bpo"/>
+        <unprocessed file="/Celebrity/Celebrity_0.bpr"/>
+        <unprocessed file="/Celebrity/Celebrity_0.bps"/>
+        <unprocessed file="/Celebrity/Celebrity_1.bcm"/>
+        <unprocessed file="/Celebrity/Celebrity_1.bpo"/>
+        <unprocessed file="/Celebrity/Celebrity_1.bpr"/>
+        <unprocessed file="/Celebrity/Celebrity_1.bps"/>
+    </pim>
+    <pim project="/Prac_1">
+        <rodin_index>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.parameter#*" name="s">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.parameter#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.parameter#(" name="co">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="15"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#.|org.eventb.core.parameter#'" name="s">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#.|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/" name="enroll">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1" name="PracMachine_1">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-" name="admission">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.carrierSet#*" name="COURSE">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="5"/>
+                <occurrence element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.carrierSet#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="16"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.constant#(" name="limit">
+                <occurrence element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="15"/>
+                <occurrence element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="15"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.parameter#*" name="co">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="15"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.parameter#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.parameter#(" name="s">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="s">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1" name="PracContext_1">
+                <occurrence element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1" kind="org.eventb.core.declaration"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0" name="drop">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#." name="leave">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.carrierSet#)" name="STUDENT">
+                <occurrence element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.carrierSet#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.variable#," name="c">
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.variable#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="21"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+            </descriptor>
+            <descriptor element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.constant#'" name="cap">
+                <occurrence element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="29"/>
+                <occurrence element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="13"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/Prac_1/PracContext_1.buc">
+                <exported element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.constant#(" name="limit"/>
+                <exported element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1" name="PracContext_1"/>
+                <exported element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.carrierSet#)" name="STUDENT"/>
+                <exported element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.constant#'" name="cap"/>
+                <exported element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.carrierSet#*" name="COURSE"/>
+            </export>
+            <export file="/Prac_1/PracMachine_1.bum">
+                <exported element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.constant#(" name="limit"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.parameter#*" name="co"/>
+                <exported element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1" name="PracContext_1"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#.|org.eventb.core.parameter#'" name="s"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0" name="drop"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1" name="PracMachine_1"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/" name="enroll"/>
+                <exported element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.constant#'" name="cap"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-" name="admission"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#-|org.eventb.core.parameter#*" name="s"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#." name="leave"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.parameter#(" name="co"/>
+                <exported element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.carrierSet#)" name="STUDENT"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#0|org.eventb.core.parameter#(" name="s"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.variable#," name="c"/>
+                <exported element="/Prac_1/PracMachine_1.bum|org.eventb.core.machineFile#PracMachine_1|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="s"/>
+                <exported element="/Prac_1/PracContext_1.buc|org.eventb.core.contextFile#PracContext_1|org.eventb.core.carrierSet#*" name="COURSE"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/Prac_1/PracContext_1.buc" mark="false" order_pos="0"/>
+            <node label="/Prac_1/PracMachine_1.bum" mark="false" order_pos="1">
+                <predecessor label="/Prac_1/PracContext_1.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/Prac_1/PractContext_1.bcc"/>
+        <unprocessed file="/Prac_1/PractContext_1.bpo"/>
+        <unprocessed file="/Prac_1/PractContext_1.bpr"/>
+        <unprocessed file="/Prac_1/PractContext_1.bps"/>
+        <unprocessed file="/Prac_1/PracContext_1.bpr"/>
+        <unprocessed file="/Prac_1/PracContext_1.bcc"/>
+        <unprocessed file="/Prac_1/PracContext_1.bpo"/>
+        <unprocessed file="/Prac_1/PracContext_1.bps"/>
+        <unprocessed file="/Prac_1/PracMachine_1.bcm"/>
+        <unprocessed file="/Prac_1/PracMachine_1.bpo"/>
+        <unprocessed file="/Prac_1/PracMachine_1.bpr"/>
+        <unprocessed file="/Prac_1/PracMachine_1.bps"/>
+    </pim>
+    <pim project="/ProgTest_1">
+        <rodin_index>
+            <descriptor element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#." name="register">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.parameter#*" name="s">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.parameter#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="42" loc_char_start="41"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#," name="eecs4480">
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="20"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="68" loc_char_start="60"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="101" loc_char_start="93"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="23"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="49" loc_char_start="41"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.variable#*" name="teaches">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.variable#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#*" name="maximum">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="20"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="50" loc_char_start="43"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#(" name="COURSE">
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="79" loc_char_start="73"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="21"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="16"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="22"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="10"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="11"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="37" loc_char_start="31"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="12"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="26"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.parameter#(" name="s">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="42" loc_char_start="41"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/" name="withdraw">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA" name="EnrollmentA">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA" name="COA">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.seesContext#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#-" name="rule">
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="11"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="23"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="35" loc_char_start="31"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="57" loc_char_start="53"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="4"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="49" loc_char_start="45"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.parameter#+" name="co">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="36" loc_char_start="34"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="21"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="12"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.parameter#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#+" name="eecs4315">
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="91" loc_char_start="83"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="13"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="8"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="39" loc_char_start="31"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.parameter#)" name="co">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="12"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="13"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.parameter#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="21"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="36" loc_char_start="34"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#)" name="PROFESSOR">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="10"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="7"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.variable#(" name="reglist">
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="10"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="33" loc_char_start="26"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="10"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="33" loc_char_start="26"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="9"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="13"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="29"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="5"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="9"/>
+            </descriptor>
+            <descriptor element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#'" name="STUDENT">
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="7"/>
+                <occurrence element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+                <occurrence element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="21"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/ProgTest_1/COA.buc">
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#)" name="PROFESSOR"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#+" name="eecs4315"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#*" name="maximum"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#'" name="STUDENT"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#-" name="rule"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA" name="COA"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#(" name="COURSE"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#," name="eecs4480"/>
+            </export>
+            <export file="/ProgTest_1/EnrollmentA.bum">
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#+" name="eecs4315"/>
+                <exported element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.variable#(" name="reglist"/>
+                <exported element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.parameter#*" name="s"/>
+                <exported element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.variable#*" name="teaches"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#-" name="rule"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA" name="COA"/>
+                <exported element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/|org.eventb.core.parameter#+" name="co"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#)" name="PROFESSOR"/>
+                <exported element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#." name="register"/>
+                <exported element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#\/" name="withdraw"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#*" name="maximum"/>
+                <exported element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.parameter#(" name="s"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#'" name="STUDENT"/>
+                <exported element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA" name="EnrollmentA"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.carrierSet#(" name="COURSE"/>
+                <exported element="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.parameter#)" name="co"/>
+                <exported element="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.constant#," name="eecs4480"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/ProgTest_1/COA.buc" mark="false" order_pos="0"/>
+            <node label="/ProgTest_1/EnrollmentA.bum" mark="false" order_pos="1">
+                <predecessor label="/ProgTest_1/COA.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/ProgTest_1/EnrollmentA.bcm"/>
+        <unprocessed file="/ProgTest_1/EnrollmentA.bpo"/>
+        <unprocessed file="/ProgTest_1/EnrollmentA.bpr"/>
+        <unprocessed file="/ProgTest_1/EnrollmentA.bps"/>
+        <unprocessed file="/ProgTest_1/COA.bcc"/>
+        <unprocessed file="/ProgTest_1/COA.bpo"/>
+        <unprocessed file="/ProgTest_1/COA.bps"/>
+        <unprocessed file="/ProgTest_1/COA.bpr"/>
+    </pim>
+    <delta_list/>
+    <indexer_registry>
+        <registry_entry element_type="org.eventb.core.machineFile">
+            <indexer id="machineIndexer"/>
+        </registry_entry>
+        <registry_entry element_type="org.eventb.core.contextFile">
+            <indexer id="contextIndexer"/>
+        </registry_entry>
+    </indexer_registry>
+</index_root>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="25">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="20">
+        <org.eventb.core.poIdentifier name="COURSE" org.eventb.core.type="ℙ(COURSE)"/>
+        <org.eventb.core.poIdentifier name="STUDENT" org.eventb.core.type="ℙ(STUDENT)"/>
+        <org.eventb.core.poIdentifier name="PROFESSOR" org.eventb.core.type="ℙ(PROFESSOR)"/>
+        <org.eventb.core.poIdentifier name="eecs4315" org.eventb.core.type="COURSE"/>
+        <org.eventb.core.poIdentifier name="maximum" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="eecs4480" org.eventb.core.type="COURSE"/>
+        <org.eventb.core.poIdentifier name="rule" org.eventb.core.type="ℙ(COURSE×COURSE)"/>
+        <org.eventb.core.poPredicate name="PROFESSOS" org.eventb.core.predicate="maximum∈ℕ1" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#."/>
+        <org.eventb.core.poPredicate name="PROFESSOT" org.eventb.core.predicate="eecs4315∈COURSE∧eecs4480∈COURSE" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#\/"/>
+        <org.eventb.core.poPredicate name="PROFESSOU" org.eventb.core.predicate="rule∈COURSE ↔ COURSE" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#0"/>
+        <org.eventb.core.poPredicate name="PROFESSOV" org.eventb.core.predicate="dom(rule)∩{eecs4315,eecs4480}=(∅ ⦂ ℙ(COURSE))" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#1"/>
+        <org.eventb.core.poPredicate name="PROFESSOW" org.eventb.core.predicate="∀s⦂COURSE·s∈dom(rule)⇒dom(rule)∩rule[{s}]=(∅ ⦂ ℙ(COURSE))" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#2"/>
+        <org.eventb.core.poPredicate name="PROFESSOX" org.eventb.core.predicate="∀c⦂COURSE·c∈dom(rule)⇒rule[{c}]⊆{eecs4315,eecs4480}∪COURSE" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#3"/>
+        <org.eventb.core.poPredicate name="PROFESSOY" org.eventb.core.predicate="finite(STUDENT)" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#4"/>
+        <org.eventb.core.poPredicate name="PROFESSOZ" org.eventb.core.predicate="finite(PROFESSOR)" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#5"/>
+        <org.eventb.core.poPredicate name="PROFESSO[" org.eventb.core.predicate="⊤" org.eventb.core.source="/ProgTest_1/COA.buc|org.eventb.core.contextFile#COA|org.eventb.core.axiom#6"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="24">
+        <org.eventb.core.poIdentifier name="teaches" org.eventb.core.type="ℙ(PROFESSOR×COURSE)"/>
+        <org.eventb.core.poIdentifier name="reglist" org.eventb.core.type="ℙ(COURSE×ℙ(STUDENT))"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="inv3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Invariant" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#HYPCOC"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s⦂COURSE·s∈dom(reglist)⇒finite(reglist[{s}])" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#-"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#-"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#HYPCOC"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#EVTALLHYPteachet"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(COURSE×ℙ(STUDENT)))∈COURSE ⇸ ℙ(STUDENT)" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#HYPCOC|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#EVTALLHYPteachet"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(PROFESSOR×COURSE))∈PROFESSOR ⤔ COURSE" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#,"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#,"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#HYPCOC|org.eventb.core.poPredicate#PRD1"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#EVTALLHYPteachet"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀s⦂COURSE·s∈dom(∅ ⦂ ℙ(COURSE×ℙ(STUDENT)))⇒card((∅ ⦂ ℙ(COURSE×ℙ(STUDENT)))[{s}])&lt;maximum" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#-"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#-"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poSequent#INITIALISATION\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTteachet" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="24">
+        <org.eventb.core.poIdentifier name="reglist'" org.eventb.core.type="ℙ(COURSE×ℙ(STUDENT))"/>
+        <org.eventb.core.poIdentifier name="teaches'" org.eventb.core.type="ℙ(PROFESSOR×COURSE)"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPteachet" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#EVTIDENTteachet" org.eventb.core.poStamp="24"/>
+    <org.eventb.core.poSequent name="register/grd3/WD" org.eventb.core.accurate="false" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#EVTHYPteacheu("/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="co∈dom(reglist)∧reglist∈COURSE ⇸ ℙ(STUDENT)" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#+"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#EVTHYPteacheu("/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTteacheu" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="24">
+        <org.eventb.core.poIdentifier name="s" org.eventb.core.type="STUDENT"/>
+        <org.eventb.core.poIdentifier name="co" org.eventb.core.type="COURSE"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPteacheu(" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#EVTIDENTteacheu" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="co∈dom(reglist)" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#'"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="s∈STUDENT" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#*"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPteacheu" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#EVTHYPteacheu(" org.eventb.core.poStamp="25">
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="s∉reglist(co)" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.event#.|org.eventb.core.guard#+"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="HYPCOC" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="reglist∈COURSE ⇸ ℙ(STUDENT)" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="teaches∈PROFESSOR ⤔ COURSE" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#,"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/ProgTest_1/EnrollmentA.bpo|org.eventb.core.poFile#EnrollmentA|org.eventb.core.poPredicateSet#HYPCOC" org.eventb.core.poStamp="24">
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="∀s⦂COURSE·s∈dom(reglist)⇒card(reglist[{s}])&lt;maximum" org.eventb.core.source="/ProgTest_1/EnrollmentA.bum|org.eventb.core.machineFile#EnrollmentA|org.eventb.core.invariant#-"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
